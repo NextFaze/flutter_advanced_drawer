@@ -173,6 +173,7 @@ class _AdvancedDrawerState extends State<AdvancedDrawer>
                                 color: Colors.transparent,
                                 child: InkWell(
                                   onTap: _controller.hideDrawer,
+                                  splashColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   child: Container(),
                                 ),
